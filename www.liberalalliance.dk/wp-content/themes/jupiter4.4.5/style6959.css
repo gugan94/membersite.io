@@ -1,0 +1,43 @@
+/*
+Theme Name: Jupiter
+Theme URI: http://themeforest.net/user/artbees
+Author: Artbees
+Author URI: http://themeforest.net/user/artbees
+Version: 4.4.5
+Description: A Beautiful, Professional and Ultimate Wordpress Theme Made by Artbees. Jupiter is a Clean, Flexible, fully responsive and retina ready Wordpress theme. Its smart and hand crafted environment allows you to Build outstanding websites easy and fast.
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+
+
+/*
+
+Main Stylesheet file is located at stylesheet/css/styles.css
+
+*/
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.entry-content img, 
+.entry-content iframe, 
+.entry-content object, 
+.entry-content embed {
+        max-width: 100%;
+}
